@@ -8,3 +8,4 @@ Visit http://localhost:3000
 
 To download CSV file from Image dataset contained within S3 Bucket
 
+![./screen.jpg](./screen.jpg)
