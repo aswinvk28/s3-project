@@ -18,7 +18,7 @@ class ImagesList extends React.Component {
     }
 
     fetchData() {
-        var data = axios.get(PROTO + "://" + HOST + ":" + PORT + "/list-s3")
+        var data = axios.get(PROTO + "://" + HOST + ":" + PORT + "/s3/index.php?q=list-s3")
             .then(response => {
                 for(var i = 0; i < response.data.length; i++) {
                     ImagesList.stateData[ImagesList.stateData.length] = {
